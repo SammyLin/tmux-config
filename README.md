@@ -10,13 +10,23 @@ brew update
 brew install tmux
 
 git clone https://github.com/SammyLin/tmux-config.git ~/.tmux
-```
 
-  Copy tmux config to home:
+# Copy tmux plugin Manager
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
-```bash
+# Copy tmux config to home:
 ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
+
+tmux
+
+tmux source ~/.tmux.conf
+
+
 ```
+
+Then `Control + a ` then `I`
+
+Install Plugin
 
 Plugin
 -----
